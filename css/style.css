@@ -80,5 +80,62 @@ h1{
 .right-box{
     position: relative;
     width: 411px;
-    background-color: blue;
+}
+/* right box */
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.gmail-logo{
+    box-shadow: .50em .750em 1em;
+}
+.img-size{
+    width: 65px;
+    height: 65px;
+    padding: 16px;
+}
+.twitter-logo{
+    padding: 16px;
+    box-shadow: .75em .75em 1em;
+    width: 65px;
+    height: 65px;
+}
+.linkden-logo{
+    padding: 16px;
+    box-shadow: .75em .75em 1em;
+    width: 65px;
+    height: 65px;
+}
+.github-logo{
+    padding: 16px;
+    box-shadow: .75em .75em 1em;
+    width: 65px;
+    height: 65px;
+}
+h4{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 40px 0px 28px 0px;
+}
+.frame{
+    width: 426px;
+    height: 64px;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+    margin-top: 14px;
+}
+label{
+    font-size: 16px;
+    color: #696F79;
+    line-height: 19.36px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal; 
+}
+#email{
+    color: #8692A6;
+}
+input{  
+    
 }
