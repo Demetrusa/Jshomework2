@@ -1,5 +1,4 @@
-section{
-    width: 1440px;
+section{s
     position: relative;
     padding: 68px 0 0 80px;
 }
@@ -125,17 +124,75 @@ h4{
     border: 1px solid #8692A6;
     border-radius: 6px;
     margin-top: 14px;
+    margin-bottom: 24px;
 }
 label{
     font-size: 16px;
     color: #696F79;
     line-height: 19.36px;
     font-family: 'Inter', sans-serif;
-    font-style: normal; 
+    font-style: normal;
 }
 #email{
     color: #8692A6;
 }
-input{  
-    
+span{
+    position: absolute;
+    right: 15px;
+    bottom: 305px;
+}
+.fa{
+    width: 24px;
+    color: #696F79;
+}
+#strength-bar{
+    display: flex;
+}
+#strenght-bar-left {
+    background-color: #FFC107;
+    height: 4px;
+    width: 280px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+#strenght-bar-right {
+    background-color: #C4C4C4;
+    height: 4px;
+    width: 146px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+#msg{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+#checkbox-1{
+    width: 24px;
+    height: 24px;
+}
+.checkbox-wrap{
+    padding-top: 32px;
+}
+.button{
+    background: #1565D8;
+    color: white;
+    width: 425px;
+    height: 64px;
+    margin-top:36px ;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+h5{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+u{
+    color: blue;
 }

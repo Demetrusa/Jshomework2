@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c294fa882e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section>
@@ -50,12 +50,33 @@
             <form action="">
                 <label for="email">Your email</label><br>
                 <input class="frame" type="email" id="email" name="email" value="Write your email"><br>
-                <label for="password">Choose a password</label>
-
+                <label id="password" for="password">Choose a password</label><br>
+                <input class="frame" type="password" id="pass" name="password">
+                <span id="toggle" onclick="toggle()">
+                    <i class="fa fa-eye" aria-hidden="true" id="eye"></i>
+                </span>
+                
+                <div id="strength-bar">
+                    <p id="strenght-bar-left"></p>
+                    <p id="strenght-bar-right"></p>
+                </div>
+                <p id="msg">Not bad but you know you can do it better</p>
             </form>
+            <div class="checkbox-wrap">
+                <form>
+                    <input type="checkbox" id="checkbox-1" name="checkbox-1">
+                    <label  for="checkbox-1">I agree to <u>terms & conditions</u></label><br>
+                    <input type="checkbox" id="checkbox-1" name="checkbox-1">
+                    <label for="checkbox-2">I’d like being informed about latest news and tips</label>
+                </form>
+                </div>
+                <button class="button" type="submit">Sign up for free</button>
+                <h5>Do you already have an account? <u>Log in</u></h5>
+            </div>
         </div>
      </div>
      </div>
     </section>
+    <link rel="stylesheet" href="script.js">
 </body>
 </html>
